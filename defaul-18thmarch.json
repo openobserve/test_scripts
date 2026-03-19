@@ -1,0 +1,33 @@
+{
+  "anomaly_id": "3B7hHrdjz9rzRKCAZr6M232Rxrk",
+  "org_id": "default",
+  "stream_name": "default",
+  "stream_type": "logs",
+  "enabled": true,
+  "name": "defaul-18thmarch",
+  "description": null,
+  "query_mode": "filters",
+  "filters": [],
+  "custom_sql": null,
+  "detection_function": "count",
+  "histogram_interval": "5m",
+  "schedule_interval": "1h",
+  "detection_window_seconds": 43200,
+  "training_window_days": 1,
+  "retrain_interval_days": 7,
+  "threshold": 82,
+  "seasonality": "day",
+  "alert_type": "anomaly_detection",
+  "updated_at": 1773905892177482,
+  "created_at": 1773845930728426,
+  "owner": "root@example.com",
+  "last_updated": 1773845930728426,
+  "folder_id": "default",
+  "rcf_num_trees": 100,
+  "rcf_tree_size": 256,
+  "rcf_shingle_size": 4,
+  "alert_enabled": true,
+  "alert_destinations": [
+    "slackmyalerts"
+  ]
+}
